@@ -22,9 +22,11 @@ h1 {
   text-transform: uppercase;
   margin-bottom: 0;
   color: #fff;
+  text-align: center;
 }
 p {
   color: #fff;
+  text-align: center;
 }
 @media (max-width: 768px) {
   h1 {
