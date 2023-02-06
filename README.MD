@@ -5,3 +5,5 @@
 Esse projeto é um dicionario que lista as mulheres negras que fizeram e ainda fazem parte da historia do Brasil e do mundo.
 
 Projeto feito com as tecnologias: HTML, CSS e javascript.
+
+Link do projeto no vercel: https://frontend-2-programaria.vercel.app/
