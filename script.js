@@ -39,7 +39,17 @@ function carregaDicionario() {
         },
       
     };
-      
-        console.log(biografias);
+    for ( var bio in biografias) {
+        console.log(
+            (bio += 
+                " " + "Nome: " + 
+                biografias[bio].nome + 
+                " " + "Minibio: " + 
+                biografias[bio].descricao +
+                " " + 
+                "Citação: " + 
+                biografias[bio].citacao)
+        );
+    }
 }
   carregaDicionario();
