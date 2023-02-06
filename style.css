@@ -1,10 +1,13 @@
 body {
-  font-family: Open Sans, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background: #FFFFFF url("./img/maos.jpg") no-repeat center right fixed;
+  background-size: 100rem;
+
 }
 
 header {
   height: 100px;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #ffffff;
   margin-bottom: 40px;
 }
 
@@ -18,8 +21,11 @@ header {
 h1 {
   text-transform: uppercase;
   margin-bottom: 0;
+  color: #fff;
 }
-
+p {
+  color: #fff;
+}
 @media (max-width: 768px) {
   h1 {
        font-size: 36px;
@@ -36,9 +42,10 @@ section {
 .card {
   display: inline-block;
   margin: 10px;
-  border: 1px solid #000;
+  border: 1px solid #ffffff;
   vertical-align: top;
   max-height: 100%;
+  border-radius: 15px;
 }
 
 @media (max-width: 768px) {
@@ -52,6 +59,7 @@ section {
   display: block;
   width: 300px;
   height: 300px;
+  border-radius: 20px;
 }
 
 @media (max-width: 768px) {
@@ -65,6 +73,9 @@ section {
   width: 300px;
   height: auto;
   display: inline-block;
+  color: #fff;
+  background-color: #8b7452;
+  border-radius: 30px;
 }
 
 @media (max-width: 768px) {
@@ -95,7 +106,7 @@ section {
 }
 
 .card details blockquote {
-  color: #777;
+  color: #ffffff;
   font-style: italic;
 }
 
