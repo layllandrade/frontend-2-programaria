@@ -83,6 +83,7 @@ section {
   color: #fff;
   background-color: #8b7452;
   border-radius: 30px;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
